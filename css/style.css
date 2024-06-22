@@ -9,7 +9,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--bg-main);
+    color: var(--color-main);
     background-color: var(--bg-main);
     line-height: 1.64;
     display: grid;
@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*nav*/
 .nav__list {
+    color: var(--color-main);
     padding: 0;
     margin: 0;
     list-style: none;
@@ -113,11 +114,52 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.text__about mi {
+.text__about-mi {
     text-align: center;
+    white-space: pre-line;
+
 }
 
 /*text*/
+/*block*/
+.block {
+    display: flex;
+    box-sizing: border-box;
+    color: var(--color-contrast);
+    background-color: var(--color-accent);
+    min-height: 250px;
+    margin-top: 100px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 45px;
+}
+
+.block__item {
+}
+
+
+/*block*/
+/*work*/
+
+
+.how-i__work {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.text__work {
+    text-align: center;
+    white-space: pre-line;
+}
+
+.img__rectangl {
+
+}
+
+
+/*work*/
+
+
 /*footer*/
 .footer {
     padding-top: 50px;
