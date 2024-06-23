@@ -139,23 +139,37 @@ h1, h2, h3, h4, h5, h6 {
     margin: 10px 0;
 }
 
-.block__item--img {
+.block__span {
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.block__span2 {
+    margin-top: 30px;
+    margin-left: -35px;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.block__img {
     margin-right: 20px;
 }
 
 /*block*/
 /*work*/
-.how-i__work {
+.block__work {
     text-align: center;
     margin-top: 100px;
 }
 
-.text__work {
+.block__text {
     text-align: center;
     white-space: pre-line;
 }
 
-.img__rectangle {
+.button {
     display: flex;
     position: relative;
     justify-content: center;
@@ -164,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.img__btn {
+.button__play {
     position: absolute;
     top: 40%;
     background: none;
