@@ -2,7 +2,6 @@
   display: flex;
   box-sizing: border-box;
   justify-content: center;
-  flex-wrap: nowrap;
   color: var(--color-contrast);
   background-color: var(--color-accent);
   min-height: 250px;
@@ -10,19 +9,19 @@
   gap: 45px;
 }
 
-.block__item {
+.&__item {
   display: flex;
   align-items: center;
   margin: 10px 0;
 }
 
-.block__span {
+.&__span {
   margin-bottom: 25px;
   font-weight: 500;
   font-size: 21px;
 }
 
-.block__span2 {
+.&__span2 {
   margin-top: 30px;
   margin-left: -35px;
   font-weight: 400;

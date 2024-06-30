@@ -7,23 +7,23 @@
   gap: 42px;
 }
 
-.nav__link {
+.&__link {
   color: var(--color-title);
   letter-spacing: 0.1em;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.nav__link:hover,
-.nav__link:focus {
+.&__link:hover,
+.&__link:focus {
   text-decoration: underline;
 }
 
-.nav__:active {
+.&__:active {
   opacity: .7;
 }
 
-.nav__link.nav__link--active {
+.&__link.&__link--active {
   color: var(--color-accent);
   font-weight: 500;
 }

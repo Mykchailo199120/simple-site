@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 
-.btn:hover, .btn:focus {
+.&:hover, .&:focus {
   background: var(--color-contrast);
   color: var(--color-accent);
 }
