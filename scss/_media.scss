@@ -110,8 +110,7 @@
 }
 
 .block {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   gap: 20px;
 }
 

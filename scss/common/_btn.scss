@@ -10,9 +10,10 @@
   align-items: center;
   padding: 20px 40px;
   box-sizing: border-box;
-}
 
-.&:hover, .&:focus {
-  background: var(--color-contrast);
-  color: var(--color-accent);
+
+  &:hover, &:focus {
+    background: var(--color-contrast);
+    color: var(--color-accent);
+  }
 }

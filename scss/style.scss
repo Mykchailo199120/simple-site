@@ -1,17 +1,18 @@
 @import "normalize";
-@import "variables";
-@import "global";
-@import "btn";
-@import "header";
-@import "nav";
-@import "offer";
-@import "text";
-@import "block";
-@import "work";
-@import "button";
-@import "footer";
+@import "common/variables";
+
+@import "common/global";
+@import "common/btn";
+@import "common/header";
+@import "common/nav";
+@import "common/text";
+@import "common/block";
+@import "common/work";
+@import "common/button";
+@import "common/footer";
 @import "media";
 
+@import "index/offer";
 
 
 
