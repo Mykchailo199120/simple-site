@@ -454,7 +454,8 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin-top: 100px;
 }
-.block__work__text {
+
+.block__text {
   text-align: center;
   white-space: pre-line;
 }
